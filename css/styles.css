@@ -11,7 +11,6 @@
 }
 
 .navigation {
-    /* border: 1px solid red; */
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -29,7 +28,6 @@
 
 .tags-navigation {
     z-index: 300;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -63,7 +61,6 @@
 }
 
 .request-box-info {
-    /* border: 1px solid red; */
     width: 37%;
     margin: auto;
     display: flex;
@@ -74,7 +71,6 @@
 }
 
 .btn-request, .btn-request-info {
-    /* border: 1px solid purple; */
     display: flex;
     justify-content: center;
     width: 10em;
@@ -97,7 +93,6 @@
 }
 
 .portada {
-    /* border: 1px solid purple; */
     background:#fafafa;
     display: grid;
     grid-template-columns: 47% 56%;
@@ -106,7 +101,6 @@
 }
 
 .t-info {
-    /* border: 1px solid red; */
     color: var(--titles);
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -126,7 +120,6 @@
 }
 
 .description-info{
-    /* border: 1px solid green; */
     color:rgb(102, 102, 102);
     line-height: 25px;
     width: 55%;
@@ -137,7 +130,6 @@
 }
 
 .img-intro {
-    /* border:1px solid purple ; */
     position: relative;
     width: 100%;
     height: 90vh;
@@ -150,7 +142,6 @@
 }
 
 .mockups {
-    /* border: 1px solid red; */
     position: absolute;
     width: 800px;
     right: -9vw;
@@ -159,7 +150,6 @@
 }
 
 .easybank {
-    /* border: 1px solid red; */
     background: #f4f5f7;
     display: grid;
     grid-template-rows: 40% 60%;
@@ -168,7 +158,6 @@
 }
 
 .description-eb {
-    /* border: 1px solid green; */
     font-size: 1.1em;
     width: 80%;
     margin: auto;
@@ -190,7 +179,6 @@
 }
 
 .grid-easybank {
-    /* border: 1px solid green; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 80%;
@@ -198,7 +186,6 @@
 }
 
 .card-eb {
-    /* border: 1px solid purple; */
     display: grid;
     align-items: center;
     grid-template-rows: 1fr 1fr 1fr;
@@ -223,7 +210,6 @@
 }
 
 .articles-easybank {
-    /* border: 1px solid red; */
     display: grid;
     grid-template-rows: 10% 90%;
     background: #fafafa;
@@ -233,7 +219,6 @@
 }
 
 .t-section-article {
-    /* border: 1px solid red; */
     width: 80%;
     margin: auto;
     margin-top: 10vh;
@@ -244,7 +229,6 @@
 }
 
 .grid-easybank-articles {
-    /* border: 1px solid green; */
     display: grid;
     justify-content: center;
     align-items: center;
@@ -257,7 +241,6 @@
 }
 
 .article-easybank {
-    /* border: 1px solid purple; */
     background: #fff;
     width: 100%;
     height: 80%;
@@ -272,7 +255,6 @@
 }
 
 .autor {
-    /* border: 1px solid red; */
     color: #b0b8b6;
     width: 80%;
     margin: auto;
@@ -304,22 +286,19 @@
 }
 
 .footer {
-    /* border: 1px solid red; */
     background: #2d314e;
     width: 100%;
     height: 23vh;
 }
 
 .grid {
-    /* border: 1px solid white; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
 .social {
-    /* border: 1px solid green; */
     display: grid;
     justify-content: center;
     align-items: center;
@@ -328,12 +307,12 @@
     height: 20vh;
 }
 
+
 .redes img {
     padding:0 .2em;
 }
 
 .list {
-    /* border: 1px solid red; */
     width: 100%;
     height: 11vh;
     margin: auto;
@@ -363,14 +342,12 @@
 }
 
 .request-box-ft {
-    /* border: 1px solid white; */
     display: grid; 
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 
 .copyright {
-    /* border: 1px solid red; */
     margin-left: 7em;
     color: #9c9c9c;
     font-size: .9em;
@@ -383,62 +360,52 @@
 @media screen and (max-width:400px) {
     
     .portada {
-        /* border: 1px solid red; */
         grid-template-rows: 1fr 1fr 1fr;
-            
         grid-template-columns: none;
-        height: 150vh;
+        height: 125vh;
     }
     
     .img-intro-mobile {
         display: flex;
-        position: relative;
-        background-position-x: 15%;
         overflow: hidden;
         z-index: 99;
-        width: 100%;
         height: 70vh;
         background-image: linear-gradient(120deg, #64ec9600 0%, #64bfec00 100%), url(../images/bg-intro-mobile.svg);
         background-repeat: no-repeat;
         background-position-y:-80%;
-        /* background-position-x: 15%; */
-        /* z-index: -10; */
     }
     
     .mockups-mobile {
         display: flex;
         position: absolute;
-        /* border: 1px solid red; */
         width: 100%;
         height: 75vh;
         position: absolute;
-        /* width: 800px; */
         right:0;
         top: -11.8vh;
         z-index: 100;
     }
     .t-info {
-        /* border: 1px solid green; */
         z-index: 98;
-        margin-top: 0;
+        margin-top: -9vh;
     }
 
     .t-info h1 {
-    display: flex;
-    width: 80%;
-    margin: auto;
-    font-family: tahoma;
-    font-size:40px;
-    font-weight: 100;
-    color: var(--titles);
+        width: 80%;
+        margin: auto;
+        font-family: tahoma;
+        font-size:40px;
+        font-weight: 100;
+        color: var(--titles);
     }
 
     .description-info {
         width: 80%;
+        font-size: .85em;
     }
 
     .request-box-info {
-        width: 80%;
+        width: 85%;
         justify-content: center;
     }
     
@@ -465,7 +432,7 @@
     .easybank {
         background: #f4f5f7;
         display: grid;
-        grid-template-rows: 20% 80%;
+        grid-template-rows: 10% 90%;
         width: 100%;
         height: 250vh;
         overflow: hidden;
@@ -475,19 +442,100 @@
         display: grid;
         grid-template-columns:none;
         grid-template-rows: 1fr 1fr 1fr 1fr;
+        row-gap: 8vh;
         width: 80%;
         margin: auto;
     }
-    
 
-    .request-box, .img-intro, .mockups {
+    .description-eb {
+        font-size: 1.1em;
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        margin-top: 4em;
+    }
+
+    .info-eb {
+        width: 100%;
+        line-height: 25px;
+        margin-top: 3.5vh;
+    }
+
+    .card-eb {
+        display: grid;
+        align-items: center;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .t-card-eb, .img-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .description-card {
+        line-height: 23px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .request-box, .img-intro, .mockups, .tags-navigation {
     display: none;
     }
 
-    .tags-navigation{
-        display: none;
+    .footer {
+        height: 30em;
+    }
+    
+    .grid {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 100%;
     }
 
+    .social{ 
+        height: 17vh;
+    }
 
+    .list {
+        height: 35vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
 
+    .list p {
+        text-align: center;
+    }
+
+    .request-box-ft {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5.5vw;
+        margin-top: 4.8vh;
+        margin: auto;
+    }
+
+    .easybank {
+        grid-template-rows: 25% 75%;
+        height: 230vh;
+    }
+
+    .articles-easybank {
+        height: 130em;
+        grid-template-rows: 5% 95%;
+    }
+
+    .grid-easybank-articles {
+        grid-template-columns: none;
+        grid-template-rows:1fr 1fr 1fr 1fr; 
+        margin-top: 0;
+        height: 100%;
+    }
+
+    .copyright {
+        margin: 0;
+    }
 }
